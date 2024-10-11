@@ -3,8 +3,8 @@ import { client } from "@/client";
 import { getContract } from "thirdweb";
 import { mandaLinkAbi } from "./abis/mandaLinkAbi";
 const USDTAddress = "0x31B4245d9f88DA6Fa01A14398adA46b177c7F2ba"
-export const MandaLinkAddress = "0x47484F995e640d99D8eF0BaE2eE8f8Fe309C8142"
-export const PaymentAddress = "0xF77D4dCe4Ec15f2FfCd8fF2915054566123d1F9D"
+export const MandaLinkAddress = "0xA8aD8Cfda299e227f1B00629740350bec88bF465"
+export const PaymentAddress = "0xA236D0b9fE04FAd23147194c4420F4dBaaD2C1D8"
 
 
 export const USDTContract = getContract({
